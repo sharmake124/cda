@@ -35,7 +35,13 @@ ul li {
   flex-direction: row;
   justify-content: center;
 }
-
+#avatar {
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid white;
+  border-radius: 10rem;
+  margin-left: 5rem;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -50,8 +56,8 @@ ul li {
   background: #d9d9d9;
   margin: 10px;
   padding: 1%;
-  width: 12em;
-  height: 15em;
+  width: 20em;
+  height: 20em;
 }
 .main .images .card h5 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -70,21 +76,14 @@ ul li {
   margin: 1em;
 }
 .main .images img {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
 }
 h2 {
   color: #a306b6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   margin-bottom: 2%;
-}
-#avatar {
-  width: 10rem;
-  height: 10rem;
-  border: 5px solid white;
-  border-radius: 10rem;
-  margin-left: 5rem;
 }
 
 h1 {
@@ -137,4 +136,24 @@ footer #heart {
 footer p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+  }
+  .title {
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+  }
+  .main .images {
+    flex-direction: column;
+  }
+
+  #avatar {
+    margin: 1em;
+  }
 }
