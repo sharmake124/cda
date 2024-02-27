@@ -39,7 +39,8 @@ ul li {
   width: 10rem;
   height: 10rem;
   border: 5px solid white;
-  border-radius: 10rem;
+  border-radius: 50%;
+  background: white;
   margin-left: 5rem;
 }
 .main {
@@ -155,5 +156,8 @@ footer p {
 
   #avatar {
     margin: 1em;
+  }
+  ul {
+    margin-top: 5%;
   }
 }
